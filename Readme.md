@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
 ![PyQt5](https://img.shields.io/badge/PyQt5-GUI-green?style=for-the-badge&logo=qt)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
-![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
+
 
 **MedSystem Pro** is a high-performance, lightweight desktop application designed for modern healthcare facilities. Built with Python and PyQt5, it features a sleek SaaS-inspired user interface, strict Multi-Tier Role-Based Access Control (RBAC), and a zero-configuration flat-file database system for ultimate portability and rapid deployment.
 
