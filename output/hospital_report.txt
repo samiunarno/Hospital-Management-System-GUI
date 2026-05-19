@@ -1,0 +1,11 @@
+===============================================
+   HOSPITAL STATISTICS REPORT (BASED ON D.C)
+===============================================
+Report Date: 2026-05-17 21:55:13
+
+[Hospital Overview]
+Total Departments: 5
+Total Patients:    0
+Total Beds:        70
+Occupied Beds:     0
+Overall Occupancy Rate: 0.0%

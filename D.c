@@ -12,11 +12,11 @@
 #define FAILURE 0
 
 // 数据库文件名
-#define DB_DEPARTMENTS_FILE "departments_db.txt"
-#define DB_WARDS_FILE "wards_db.txt"
-#define DB_BEDS_FILE "beds_db.txt"
-#define DB_PATIENTS_FILE "patients_db.txt"
-#define DB_ANALYSIS_FILE "ai_analysis_report.txt"
+#define DB_DEPARTMENTS_FILE "data/departments_db.txt"
+#define DB_WARDS_FILE "data/wards_db.txt"
+#define DB_BEDS_FILE "data/beds_db.txt"
+#define DB_PATIENTS_FILE "data/patients_db.txt"
+#define DB_ANALYSIS_FILE "output/ai_analysis_report.txt"
 
 typedef enum {
     STATUS_AVAILABLE = 0,
@@ -881,7 +881,7 @@ void exportStatisticsToFile(Department* hospital) {
         return;
     }
 
-    FILE* file = fopen("hospital_report.txt", "w");
+FILE* file = fopen("output/hospital_report.txt", "w");
     if (!file) {
         printError("无法创建报告文件");
         return;

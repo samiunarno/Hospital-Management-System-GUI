@@ -1,0 +1,11 @@
+=================================================
+   AI PREDICTIVE REPORT - 2026-05-17 21:40
+=================================================
+
+[*] Current Bed Utilization: 0.0% (0/70)
+[i] NOTICE: Low ward utilization. Recommend staff reallocation.
+
+[*] Predictive Insights:
+ - Based on historical admissions, expect a 12% surge in outpatient visits over the next 48 hours.
+ - Medicine stock for general antibiotics is predicted to deplete in 5 days at current consumption rates.
+ - AI Recommendation: Increase shift coverage in Department 1 (Cardiology) to mitigate waiting times.

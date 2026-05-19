@@ -148,9 +148,9 @@ clean:
 # 清理数据库文件
 clean-db:
 	@echo -e "$(YELLOW)🗄️  正在清理数据库...$(NC)"
-	$(RM) departments_db.txt wards_db.txt beds_db.txt patients_db.txt 2>nul || true
-	$(RM) backup_*.txt hospital_report.* 2>nul || true
-	@echo -e "$(GREEN)✓ 数据库已清理$(NC)"
+	$(RM) data/departments_db.txt data/wards_db.txt data/beds_db.txt data/patients_db.txt 2>nul || true
+	$(RM) data/backup_*.txt reports/hospital_report.* reports/ai_analysis_report.* 2>nul || true
+	@echo -e "$(GREEN)✓ 数据库/报告已清理$(NC)"
 
 # 清理所有文件（编译文件 + 数据库）
 cleanall: clean clean-db

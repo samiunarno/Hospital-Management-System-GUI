@@ -298,7 +298,10 @@ void prescription_free_all(void)
 
 /* ====================== pharmacy(1).c ====================== */
 
-void clearInputBuffer(void) {
+static void C_clearInputBuffer(void) {
+
+#define clearInputBuffer C_clearInputBuffer
+
     int ch;
     while ((ch = getchar()) != '\n' && ch != EOF);
 }
@@ -482,7 +485,7 @@ void medicine_print(Medicine* head) {
 
 /* ====================== 文件联动 ====================== */
 void saveToFile(Medicine *head) {
-    FILE *fp = fopen("medicine.txt", "w");
+FILE *fp = fopen("output/medicine.txt", "w");
     if (fp == NULL) {
         printf("文件打开失败，无法保存\n");
         return;
@@ -497,7 +500,7 @@ void saveToFile(Medicine *head) {
 }
 
 void loadFromFile(Medicine **head) {
-    FILE *fp = fopen("medicine.txt", "r");
+FILE *fp = fopen("output/medicine.txt", "r");
     if (fp == NULL) {
         printf("暂无历史数据，新建空链表\n");
         return;
