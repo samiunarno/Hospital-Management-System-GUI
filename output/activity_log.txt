@@ -4,3 +4,6 @@
 2026-05-19 23:12:28|admin|Admin|Logged out of system
 2026-05-19 23:12:37|admin|Admin|Logged into system
 2026-05-19 23:12:41|admin|Admin|Generated Hospital Statistics Report
+2026-05-19 23:59:00|admin|Admin|登录系统
+2026-05-20 00:18:13|admin|Admin|Logged into system
+2026-05-20 00:18:19|admin|Admin|Logged out of system

@@ -23,6 +23,7 @@ PATIENT_DB = os.path.join(DB_DIR, "patients_db.txt")
 BEDS_DB = os.path.join(DB_DIR, "beds_db.txt")
 DEPTS_DB = os.path.join(DB_DIR, "departments_db.txt")
 LOG_DB = os.path.join(OUT_DIR, "activity_log.txt")
+LOGO_PATH = os.path.join(DB_DIR, "logo.svg")
 
 CURRENT_USER = ""
 CURRENT_ROLE = ""
@@ -71,7 +72,22 @@ def init_user_db():
     if needs_update:
         write_txt(USER_DB, data)
 
+def init_logo():
+    """Generates a modern, minimalist medical cross SVG logo"""
+    if not os.path.exists(LOGO_PATH):
+        svg_content = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            <!-- Background with rounded corners -->
+            <rect width="100" height="100" rx="22" fill="#0284C7"/>
+            <!-- Outer white circle -->
+            <circle cx="50" cy="50" r="32" fill="none" stroke="#E0F2FE" stroke-width="4"/>
+            <!-- Medical Cross -->
+            <path d="M35 50 H65 M50 35 V65" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+        </svg>"""
+        with open(LOGO_PATH, "w", encoding="utf-8") as f:
+            f.write(svg_content)
+
 init_user_db()
+init_logo()
 
 def apply_shadow(widget, radius=15, y_offset=2, alpha=15):
     """Subtle, professional drop shadow for enterprise UI"""
@@ -1054,6 +1070,10 @@ class AppMainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("MedSystem Pro - Enterprise Management")
+        
+        # --- NEW LOGO ADDED HERE ---
+        self.setWindowIcon(QIcon(LOGO_PATH))
+        
         self.resize(1350, 850)
         self.setStyleSheet(STYLE_SHEET)
 
