@@ -1,0 +1,5 @@
+1|admin|admin123|Admin
+3|doc|doc123|Doctor (B)
+4|pharm|pharm123|Pharmacist (C)
+5|ward|ward123|Ward Manager (D)
+5|rec|rec123|Receptionist (A)

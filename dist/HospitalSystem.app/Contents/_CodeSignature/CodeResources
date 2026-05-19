@@ -306,7 +306,7 @@
 		</data>
 		<key>Resources/base_library.zip</key>
 		<data>
-		fNWEyPdyWRaPjaWr7GIx4Xc0AQg=
+		PiOgMHQXxV4veePKJRWFN8h4UbQ=
 		</data>
 		<key>Resources/icon-windowed.icns</key>
 		<data>
@@ -748,15 +748,6 @@
 			<key>requirement</key>
 			<string>cdhash H"6c1c6ced3811ca5eda60fa3abbe910937aa48901"</string>
 		</dict>
-		<key>Frameworks/libncursesw.6.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			TG0VQzhERTJgfOuMR28lCJsTCxk=
-			</data>
-			<key>requirement</key>
-			<string>cdhash H"4c6d154338444532607ceb8c476f25089b130b19"</string>
-		</dict>
 		<key>Frameworks/libpng16.16.dylib</key>
 		<dict>
 			<key>cdhash</key>
@@ -775,24 +766,6 @@
 			<key>requirement</key>
 			<string>cdhash H"3e0f8ce82c525fce482d1f0d2360eab5e48bf656"</string>
 		</dict>
-		<key>Frameworks/libreadline.8.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			CmIRRoqQm8qOHtD81Oly6gGXTVw=
-			</data>
-			<key>requirement</key>
-			<string>cdhash H"0a6211468a909bca8e1ed0fcd4e972ea01974d5c"</string>
-		</dict>
-		<key>Frameworks/libsqlite3.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			GyRhvRLFOfhyr1Xzu+VyvXDcJ5Y=
-			</data>
-			<key>requirement</key>
-			<string>cdhash H"1b2461bd12c539f872af55f3bbe572bd70dc2796"</string>
-		</dict>
 		<key>Frameworks/libssl.3.dylib</key>
 		<dict>
 			<key>cdhash</key>
@@ -801,15 +774,6 @@
 			</data>
 			<key>requirement</key>
 			<string>cdhash H"afe3d3dc70ce1a119a50f11c647c018b228965f0"</string>
-		</dict>
-		<key>Frameworks/libtinfow.6.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			lFUi0OW3lD+pScKvQJ6EIR8Vr8U=
-			</data>
-			<key>requirement</key>
-			<string>cdhash H"945522d0e5b7943fa949c2af409e84211f15afc5"</string>
 		</dict>
 		<key>Frameworks/libz.1.dylib</key>
 		<dict>
@@ -1077,15 +1041,6 @@
 			<key>requirement</key>
 			<string>cdhash H"953321481a8d442554b10f19ba88fbaf06570c25"</string>
 		</dict>
-		<key>Frameworks/python3__dot__13/lib-dynload/_sqlite3.cpython-313-darwin.so</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			TRAROcixJTqpdfJ1JZmPP/jgB7Y=
-			</data>
-			<key>requirement</key>
-			<string>cdhash H"4d101139c8b1253aa975f27525998f3ff8e007b6"</string>
-		</dict>
 		<key>Frameworks/python3__dot__13/lib-dynload/_statistics.cpython-313-darwin.so</key>
 		<dict>
 			<key>cdhash</key>
@@ -1148,15 +1103,6 @@
 			</data>
 			<key>requirement</key>
 			<string>cdhash H"748c0668224f1f86a5a98b15e4bf4683f6ce7214"</string>
-		</dict>
-		<key>Frameworks/python3__dot__13/lib-dynload/readline.cpython-313-darwin.so</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			5TIPYrPLqG+fldDkiPeN27f3LDo=
-			</data>
-			<key>requirement</key>
-			<string>cdhash H"e5320f62b3cba86f9f95d0e488f78ddbb7f72c3a"</string>
 		</dict>
 		<key>Frameworks/python3__dot__13/lib-dynload/resource.cpython-313-darwin.so</key>
 		<dict>
@@ -1748,7 +1694,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+qyYw2vYVQUDdfrBF+VfGH5QX2yyk9y51jl7d3CoXAY=
+			arJcvvULwjMv2HjhNE3VeOHnFvQr83wWdcYW5T5ksxM=
 			</data>
 		</dict>
 		<key>Resources/icon-windowed.icns</key>
@@ -1868,11 +1814,6 @@
 			<key>symlink</key>
 			<string>../Frameworks/libmpdec.4.dylib</string>
 		</dict>
-		<key>Resources/libncursesw.6.dylib</key>
-		<dict>
-			<key>symlink</key>
-			<string>../Frameworks/libncursesw.6.dylib</string>
-		</dict>
 		<key>Resources/libpng16.16.dylib</key>
 		<dict>
 			<key>symlink</key>
@@ -1883,25 +1824,10 @@
 			<key>symlink</key>
 			<string>../Frameworks/libpython3.13.dylib</string>
 		</dict>
-		<key>Resources/libreadline.8.dylib</key>
-		<dict>
-			<key>symlink</key>
-			<string>../Frameworks/libreadline.8.dylib</string>
-		</dict>
-		<key>Resources/libsqlite3.dylib</key>
-		<dict>
-			<key>symlink</key>
-			<string>../Frameworks/libsqlite3.dylib</string>
-		</dict>
 		<key>Resources/libssl.3.dylib</key>
 		<dict>
 			<key>symlink</key>
 			<string>../Frameworks/libssl.3.dylib</string>
-		</dict>
-		<key>Resources/libtinfow.6.dylib</key>
-		<dict>
-			<key>symlink</key>
-			<string>../Frameworks/libtinfow.6.dylib</string>
 		</dict>
 		<key>Resources/libz.1.dylib</key>
 		<dict>

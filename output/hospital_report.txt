@@ -1,11 +1,11 @@
 ===============================================
-   HOSPITAL STATISTICS REPORT (BASED ON D.C)
+   ENTERPRISE FACILITY REPORT
 ===============================================
-Report Date: 2026-05-17 21:55:13
+Generated: 2026-05-19 23:12:41
 
-[Hospital Overview]
-Total Departments: 5
-Total Patients:    0
-Total Beds:        70
-Occupied Beds:     0
-Overall Occupancy Rate: 0.0%
+[Facility Overview]
+Operational Departments: 5
+Total Patient Records:   5
+Total Facility Beds:     70
+Currently Allocated:     0
+Occupancy Rate:          0.0%
